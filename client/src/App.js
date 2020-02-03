@@ -3,6 +3,7 @@ import {IdeaProvider} from './Context/IdeaContext'
 import AddIdea from './components/AddIdea'
 import PollIdea from './components/PollIdea'
 import ShowPie from './components/ShowPie'
+import TestPost from './components/TestPost'
 import './App.css';
 
 function App() {
@@ -11,13 +12,15 @@ function App() {
       <IdeaProvider>
           <div id="dataDeal">
             <PollIdea></PollIdea>
-            {/* <AddIdea></AddIdea> */}
+             {/* <AddIdea></AddIdea> */}
             
 
           </div>
           
           <ShowPie></ShowPie>
       </IdeaProvider>
+      
+
     </div>
   );
 }

@@ -1,4 +1,4 @@
-pragma solidity ^0.6.1;
+pragma solidity ^0.5.1;
 
 
 contract Poll{
@@ -21,9 +21,9 @@ contract Poll{
         uint votes
     );
 
-    constructor(address _owner) public{
+    constructor() public{
         total_votes = 0;
-        owner = _owner;
+        owner = msg.sender;
     }
 
     function giveVote(string memory idea) public{
