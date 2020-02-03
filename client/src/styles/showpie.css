@@ -1,0 +1,26 @@
+#piechart{
+    padding-top:7vh;
+    box-sizing: border-box;
+    
+}
+
+#piechart,#idealist{
+    box-shadow: 2px 2px 6px black;
+}
+
+#idealist{
+    padding:1rem;
+    background: #5fcae8;
+    color:white;
+    box-shadow: 4px 4px 15px black;
+    z-index: -2;
+    overflow: scroll;
+}
+
+#idealist h2{
+    color:black;
+}
+
+ul{
+    list-style-type: none;
+}
