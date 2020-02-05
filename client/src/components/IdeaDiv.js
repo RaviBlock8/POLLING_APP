@@ -10,8 +10,9 @@ const IdeaDiv=(props)=>{
         border:'1px solid black'
     }
     return (
-        <div id={props.idea.id}>
+        <div key={props.idea.id} className='ideaContainer'>
             <p>{props.idea.name}<span id="dot" style={spanStyle}></span></p>
+            <small><strong>About: </strong>{props.idea.desc}</small>
         </div>
     )
 }

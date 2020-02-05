@@ -41,9 +41,8 @@ function ShowPie() {
             </div>
             <div id="idealist">
                       <h2>All the ideas</h2><br/>
-                      <ul>
-                        {displayList()}
-                      </ul>
+                      {displayList()}
+                      
             </div>
             
         </div>
